@@ -1,34 +1,37 @@
-# Atom - A vibrant portfolio template
-#### Preview
+#Features
 
- - [Demo](https://themewagon.github.io/atom/)
+- Responsive Layout powered by Bootstrap 3
+- Built with w3 validated HTML5 & CSS3
+- Modern Design
+- Full Screen Header Background
+- Optimized Code & Content
+- Showcase your work more attractively.
+- HiDPI / Retina Ready
+- Clean Code
+- IE 9 support
+- SEO Optimized
+- 100% Fully Customizable
+- Sticky Header
+- Google Fonts
+- Strong focus on Usability and UX
+- FontAwesome Icon Integrated
+- Powered by Google Hosted Library and MaxCDN. 
+- Minified CSS and Js included for Faster loading. 
+- Clean and stylish UI
+- Well commented coding
+- Easy to use
+- It's Free!
 
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/atom/)
+#Screenshot
 
-## Getting Started
+![Screenshot of HTML 5]
+(https://raw.githubusercontent.com/technext/Developer/master/Features/html5.png)
 
-1. Clone Repository
-```
-git clone https://github.com/themewagon/atom.git
-```
-2. Install Dependencies
-```
-npm i
-```
-3. Run the development server:
 
-```bash
-npm serve .
-```
+#Demo Link
+Check out the demo of Flusk responsive HTML template at (http://themewagon.com/demo/Developer/)
 
-## Author 
-```
-Design and code is completely written by Red Pixel Themes and development team. 
-```
 
-## License
 
- - Design and Code is Copyright &copy; <a href="https://redpixelthemes.gumroad.com/" target="_blank">Red Pixel Themes</a>
- - Licensed cover under [MIT]
- - Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+
+
