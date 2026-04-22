@@ -1,47 +1,163 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Your Name | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial;
-            max-width: 800px;
+            font-family: 'Inter', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
             margin: auto;
             padding: 20px;
         }
 
-        h1 {
-            color: #333;
+        header {
+            text-align: center;
+            padding: 60px 20px;
         }
 
-        .project {
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            color: #94a3b8;
+            margin-top: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #38bdf8;
+            color: #0f172a;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        section {
+            margin-top: 60px;
+        }
+
+        h2 {
             margin-bottom: 20px;
+            border-bottom: 1px solid #1e293b;
+            padding-bottom: 10px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            color: #cbd5f5;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #38bdf8;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 20px;
+            color: #64748b;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>Your Name</h1>
-    <p>Beginner Developer | HTML, CSS, JavaScript</p>
+    <div class="container">
 
-    <h2>Projects</h2>
+        <header>
+            <h1>Your Name</h1>
+            <p>Frontend Developer | JavaScript | React</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </header>
 
-    <div class="project">
-        <h3>Project 1</h3>
-        <p>Short description of what it does.</p>
-        <a href="#">View Code</a>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm a developer focused on building clean and user-friendly web applications.
+                I enjoy solving problems and turning ideas into real projects.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+
+                <div class="card">
+                    <h3>Project One</h3>
+                    <p>A web app that solves X problem using Y technology.</p>
+                    <a href="#">GitHub</a>
+                </div>
+
+                <div class="card">
+                    <h3>Project Two</h3>
+                    <p>A project where I built X and implemented Y feature.</p>
+                    <a href="#">GitHub</a>
+                </div>
+
+                <div class="card">
+                    <h3>Project Three</h3>
+                    <p>An app that uses API integration and dynamic UI.</p>
+                    <a href="#">GitHub</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: your@email.com</p>
+            <p>GitHub: github.com/yourusername</p>
+        </section>
+
+        <footer>
+            <p>© 2026 Your Name</p>
+        </footer>
+
     </div>
-
-    <div class="project">
-        <h3>Project 2</h3>
-        <p>Short description of what it does.</p>
-        <a href="#">View Code</a>
-    </div>
-
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
 
 </body>
 
