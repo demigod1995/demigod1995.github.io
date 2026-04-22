@@ -1,34 +1,47 @@
-# Atom - A vibrant portfolio template
+# Picto - Personal Portfolio Free Template
+
 #### Preview
 
- - [Demo](https://themewagon.github.io/atom/)
+- [Demo](https://themewagon.github.io/picto/)
 
 #### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/atom/)
+
+- [Download from ThemeWagon](https://themewagon.com/themes/picto)
 
 ## Getting Started
 
 1. Clone Repository
+
 ```
-git clone https://github.com/themewagon/atom.git
+git clone https://github.com/themewagon/picto.git
 ```
+
 2. Install Dependencies
+
 ```
 npm i
 ```
+
 3. Run the development server:
 
 ```bash
-npm serve .
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## Author 
+## Author
+
 ```
-Design and code is completely written by Red Pixel Themes and development team. 
+Developed by ThemeWagon and development team.
 ```
 
 ## License
 
- - Design and Code is Copyright &copy; <a href="https://redpixelthemes.gumroad.com/" target="_blank">Red Pixel Themes</a>
- - Licensed cover under [MIT]
- - Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+- Design and Code is Copyright &copy; <a href="http://themewagon.com/" target="_blank">ThemeWagon</a>
+- Licensed cover under [MIT]
+- Developed by <a href="http://themewagon.com/" target="_blank">ThemeWagon</a>
